@@ -1,0 +1,214 @@
+*
+{ box-sizing:border-box;}
+html
+{ background-image:linear-gradient(green, dodgerblue, white);}
+body 
+{ margin:0;}
+#form, aside 
+{ background:black;
+  border-radius:13vw 0vw 13vw 13vw;
+  box-shadow:1.5vw 1.5vw 3.5vw 2.5vw white;
+  height:50vw;
+  font-family:serif;
+  text-align:center;
+  margin:45vw 3.5vw;}
+#form fieldset 
+{ display:none;
+  border:none;}
+form, fieldset#fullNameParent 
+{ display:block;}
+#form input
+{ margin:3.9% 0 0 0;
+  height:15vw;
+  display:inline-block;
+  color:dodgerblue;
+  background:white;
+  font-weight:bold;
+  padding:5vw;
+  border-radius:5vw 0 3vw 7vw;
+  outline:none; 
+  border:3px solid black;}
+#form img 
+{ vertical-align:middle;
+  height:15vw;
+  margin-left:-1.5vw;
+  }
+#form span 
+{ color:white;
+  float:left;
+  background:red;
+  margin-left:9vw;
+  font-size:small;}
+input[name=full] + img
+{ display:inline;}
+aside 
+{ display:none;
+  font-size:small;
+  height:85vw;
+  border-radius:13vw;}
+aside h3, nav h3, nav div
+{   box-shadow:1.5vw 1.5vw 3.5vw 0.5vw dodgerblue;
+    border-radius:15vw;
+    color:white;}
+aside div
+{ color:white;
+  margin:5vw;
+  border-radius:15vw;
+  box-shadow:1.5vw 1.5vw 3.5vw 2.5vw white;}
+aside mark 
+{ color:white;
+  padding:5vw;
+  background:dodgerblue;
+  box-shadow:1.5vw 1.5vw 3.5vw 2.5vw black;
+  border-radius:13vw;
+  border:3px solid groove;}
+nav 
+{ border-radius:5vw;
+  display:none;
+  margin:3vw 0 0 3vw;
+  position:relative;}
+nav img, aside img
+{ margin:0;
+  z-index:1;
+  box-shadow:0px 8px 16px 0px white;
+  border-radius:40%;
+  border:0.1em groove black;}
+.nav-content, nav mark, #matchName 
+{ display:none;
+  padding:5vw;
+  box-shadow:1.5vw 1.5vw 3.5vw 2.5vw white;
+  background-color:black;
+  color:white;
+  text-align:center;
+  width:65vw;
+  border-radius:9vw;
+  position:absolute;
+  z-index:1;}
+div#respect 
+{ background:red;
+  font-size:small;
+  border-radius:5vw;}
+#nav:hover .nav-content 
+{ display:block;}
+section
+{ background-color:rgba(255, 255, 255, .9);
+  box-shadow:1.5vw 1.5vw 1.5vw 2.5vw white;
+  border:3px groove black;
+  display:none;
+  margin:7%;
+  height:167vw;
+  border-radius:11vw;}
+header
+{ text-align:center;
+  color:white;}
+header span
+{ background:black;
+  border-radius:25vw;
+  font-size:3.5vw;}
+header h1
+{ font-family:courier;
+  font-size:7vw;
+  background:black;
+  text-align:center;
+  border-radius:25vw;
+  position:static;}
+header + figure img
+{ height:21vh;
+  border-radius:31%;
+  box-shadow:1.5vw 1.5vw 1.5vw 2.5vw rgba(0, 103, 255, .5);}
+figure
+{ text-align:center;
+  color:rgba(255, 255, 255, .9);
+  font-size:3.5vw;}
+figure figcaption
+{ box-shadow:1.5vw 1.5vw 3.5vw 2.5vw rgba(0, 103, 255, .5);
+  border-radius:5vw;
+  font-weight:bold;
+  margin-left:-4vw;
+  width:115%;
+  padding:1.5vw;
+  background:black;}
+section article 
+{ background-color:#e7e7e7;
+  margin:1.5vw 0 11vw 1.7vw;
+  padding-right:.1vw;} 
+section .information-container
+{ display:none;}
+cite, p
+{ font-style:normal;
+  font-family:fantasy;
+  font-size:1em;
+  padding:3vw;}
+small
+{ color:gray;
+  padding:3vw;
+  font-size:3vw;}
+small + br + i
+{ border-bottom:.7vw solid gray;
+  margin:3.5vw;
+  padding-left:15vw;}
+article p
+{ margin:0;
+  font-size:.7em;}
+p + img
+{ margin:0 25% 0 25%;}
+table 
+{ margin:1vw;}
+table, tr
+{ border:1px solid lightgray;
+  border-collapse:collapse;
+  font-size:1.8vh;}
+tr#firstly > td 
+{ width:100%;}
+table img
+{ margin:0 25% 0 25%;}
+table figcaption
+{ background:transparent;
+  box-shadow:none;
+  color:black;
+  margin-top:-1.5vw;
+  font:3vw normal;}  
+tr > td
+{ float:left;
+  font-weight:bold;
+  width:50%;
+  text-align:left;
+  padding:1.7vw;}
+td + td 
+{ float:right;
+  font-weight:normal;}
+td#sign
+{ width:100%;
+  text-align:center;}  
+form#questionForm  
+{ position:sticky;
+  bottom:0;
+  display:none; 
+  text-align:center;
+  background:#e7e7e7;
+  border-radius:3.5vw 3.5vw 0 0;
+  width:100%;}
+section div 
+{ width:55%;
+  margin-bottom:7vw;
+  background-color:rgba(180, 255, 255, .3);
+  border-radius:1.5vw;
+  font-size:small;
+  padding:1.5vw 0 0 .3vw;
+  color:dodgerblue;}
+#questionForm input 
+{ border-radius:3.5vw;
+  border-color:black;
+  width:85%;
+  color:dodgerblue;
+  margin:1vw 0 0 3vw;
+  outline:none;
+  padding:1.7vw;
+  box-shadow:0px 0px 1px 2px black;}
+#questionForm input:focus 
+{ border:0.1em solid dodgerblue;
+  border-radius:3.5vw;}
+form#questionForm img
+{ vertical-align:middle;
+  margin-left:-1vw;
+  border-radius:45%;}
